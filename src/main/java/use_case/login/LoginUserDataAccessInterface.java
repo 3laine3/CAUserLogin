@@ -32,4 +32,10 @@ public interface LoginUserDataAccessInterface {
      * @param name the new current name; null to indicate that no one is currently logged into the application.
      */
     void setCurrentUser(String name);
+
+    /**
+     * Returns the current user's name.
+     * @return the user's name
+     */
+    String getCurrentUser();
 }
